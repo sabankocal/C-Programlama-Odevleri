@@ -1,26 +1,6 @@
-#include<iostream>
-
-int func_callbyvalue(int a){
-
-   return a=20;
-}
-
-int func_callbyref(int &a){
-
-    return a=20;
-}
-
-int main(int argc, char const *argv[])
-{
-    int a=10;
-
-    func_callbyvalue(a);
-
-    std::cout<<"a="<<a<<"\n";
-
-    func_callbyref(a);
-
-    std::cout<<"a="<<a;
-
-    return 0;
-}
+İşaretsiz 2'lik sayı sisteminde (unsigned binary system) 8 bitlik alanda aşağıdaki tam sayıları ifade ediniz:
+255
+15
+48
+65
+129
