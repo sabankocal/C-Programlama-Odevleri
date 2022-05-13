@@ -45,7 +45,7 @@ int state = 7 degiskeni tanimlayiniz
 counter a ilk deger olarak 0xabcd degerini vermis olalim.
 CPU0_STATE_AND_HEARTBEAT registerinin degerini 5.derste C++ ile anlattigimiz sekilde C ile bit shift ve diger bitsel islemler ile elde ediniz.
 
-a-)
+b-)
 CPU0_STATE_AND_HEARTBEAT register degeri olarak elimizde soyle bir deger oldugunu dusunelim:
 0x00045678
 Bu degeri kullanarak counter degerinin ne oldugunu ve hangi state'in aktif oldugunu bulunuz.
