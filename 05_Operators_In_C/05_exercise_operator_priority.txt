@@ -1,0 +1,15 @@
+Operator oncelik kurallarini goz onunde bulundurup(matematikteki gibi), islemin sonucunu bulunuz.
+https://en.cppreference.com/w/c/language/operator_precedence
+web sitesindeki tablonun 3.kisim'ina dikkat!
+
+#include <stdio.h>
+void main()
+{   
+	int a=10,b=2,x=0;
+	x=a+b*a+10/2*a;
+	printf("value is =%d",x);
+}
+A-value is =1250
+B-value is =80
+C-value is =125
+D-ERROR
