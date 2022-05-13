@@ -1,0 +1,8 @@
+Donald Knuth'un optimizasyon ile ilgili sozleri ile bizim videoda anlattigimiz yontem tam olarak ortusuyor.
+Bu kisi bu ifadesi ile neyin onemine deginmisti ve bu ifadeler sizce bizim method ile neden uyusuyor?
+Cevabinizi ses kaydi olarak paylasabilirsiniz.
+
+“The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; 
+premature optimization is the root of all evil (or at least most of it) in programming.”
+Donald Knuth
+https://stackify.com/premature-optimization-evil/

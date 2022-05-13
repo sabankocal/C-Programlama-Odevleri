@@ -1,0 +1,61 @@
+Odev-1:
+Front Panel LED icin 32-bitlik bir degisken tanimlayalim ve buna hexadecimal olarak bakalim.
+bu hex degerin daha onceki ornegimizde sordugumuz kisimlari ile ilgili bu sefer bit shift islemleri ile ilgili bitlerini set edelim.
+Bunu C ekraninda ekrana yazdiralim.
+Sonrasinda bu 32-bit lik hex icinden ilgili kismi yine bit shift ile elde edip, ekrana dogru sekilde elde ettigimizi yazdiralim.
+0-2		x_axis_front_panel_led_state
+3-5		y_axis_front_panel_led_state
+6-8		z_axis_front_panel_led_state
+9-11	l_axis_front_panel_led_state
+12-14	r_axis_front_panel_led_state
+15-17	t_axis_front_panel_led_state
+18-20	a_axis_front_panel_led_state
+21-23	b_axis_front_panel_led_state
+24-26	laser_level
+27		host_connected
+28		laser_active
+29		trip_state
+30		not_used
+31		reset_front_panel_leds
+
+TUM siklar icin ortak olacak sekilde int FRONT_PANEL_LEDs adinda bir int degisken tanimlayalim.
+a-) "int reset_front_panel_leds" adinda bir degisken tanimlayalim. FRONT_PANEL_LEDs degiskeninin sadece reset_front_panel_leds bitini bit shift kullanarak 1'e set edelim.
+
+b-) ayni sekilde int host_connected degiskenini tanimlayip, ana registerin(FRONT_PANEL_LEDs) sadece ilgili bitini bit shift ile set edelim.
+
+c-) ayni sekilde int laser_level = 5 degiskenini tanimlayip, ana registerin(FRONT_PANEL_LEDs) sadece ilgili kismini bit shift ile set edelim.
+
+d-) ayni sekilde int r_axis_front_panel_led_state = 6 degiskenini tanimlayip, ana registerin(FRONT_PANEL_LEDs) sadece ilgili kismini bit shift ile set edelim.
+
+e-) onceki siklarda teker teker yaptiginiz tum degisikliklerin FRONT_PANEL_LEDs nin ilgili bitlerinde olmasini saglayiniz. 
+	Yani 4 sikkin tamamina ait duzenlemeleri register'a baktigimizda gorebilelim.
+
+f-) e sikkinda olusan FRONT_PANEL_LEDs registerini kullanarak ilk 4 siktaki degiskenlerin tamamini bu sefer tersine islem yapacak sekilde elde ediniz.
+    Yani: reset_front_panel_leds? host_connected? laser_level? r_axis_front_panel_led_state? degiskenlerini teker teker bulup ekrana yazdiriniz.
+
+
+Odev-2:
+CPU0_STATE_AND_HEARTBEAT:
+0-15	heartbeat counter
+16-19	states
+20-31	not used
+
+a-)
+int state = 7 degiskeni tanimlayiniz
+counter a ilk deger olarak 0xabcd degerini vermis olalim.
+CPU0_STATE_AND_HEARTBEAT registerinin degerini 5.derste C++ ile anlattigimiz sekilde C ile bit shift ve diger bitsel islemler ile elde ediniz.
+
+a-)
+CPU0_STATE_AND_HEARTBEAT register degeri olarak elimizde soyle bir deger oldugunu dusunelim:
+0x00045678
+Bu degeri kullanarak counter degerinin ne oldugunu ve hangi state'in aktif oldugunu bulunuz.
+typedef enum eCpu0FsmState_t{
+	eBOOT_STATE = 0,
+	eTRIP_STATE = 1,
+	eIDLE_STATE = 2,
+	//eNOT_USED = 3,
+	eOPEN_LOOP_STATE = 4,
+	eENCODER_MODE = 5,
+	eLASER_MODE = 6,
+	ePOSITION_LOST = 7
+}eCpu0FsmState_t;
