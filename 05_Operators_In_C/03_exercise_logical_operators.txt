@@ -1,0 +1,50 @@
+1.islemin sonucunu bulunuz.
+#include <stdio.h>
+void main()
+{   
+	int x=(20 || 40 ) && (10);
+	printf("x= %d",x);
+}
+
+A-x= 60
+B-x= 70
+C-x= 0
+D-x= 1
+
+
+2.islemin sonucunu bulunuz.
+Bu soruyu derste birlikte cozecegiz. Lutfen hatirlatin!!!
+Not: printf() returns total number of characters, printf("AA") will return 2
+#include <stdio.h>
+void main()
+{
+	int x;
+	x= (printf("AA")||printf("BB"));
+	printf("%d",x);
+	printf("\n");
+
+	x= (printf("AA")&&printf("BB"));
+	printf("%d",x);
+}
+a-)	AABB1
+	AABB1
+b-) 1
+	1
+c-)	AABB1
+	AA1
+d-)	AA1
+	AABB1
+
+3.islemin sonucunu bulunuz.
+#include <stdio.h>
+void main()
+{
+   int a=3,b=2;
+   a=a==b==0;
+   printf("%d,%d",a,b);
+}
+
+A-1,2
+B-3,2
+C-0,0
+D-2,3
