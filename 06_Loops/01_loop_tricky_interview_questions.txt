@@ -1,0 +1,130 @@
+Interview Questions:
+
+1. What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	int i, j;
+	for(i = 1, j = 1;i<=3,j<=3;i++,j++)
+	printf("%d %d ",i, j);
+	return 0;
+}
+A. Compilation Error
+
+B. 1 2 3 1 2 3
+
+C. 1 1 2 2 3 3
+
+D. None of the above
+
+***************************************
+
+2. What will be the output of the C program?
+
+#include<stdio.h>
+#define loop for(;;)
+int main()
+{
+	printf("DONE");
+	loop;   
+	return 0;
+}
+A. Compilation error
+
+B. Done
+
+C. Program never ends
+
+D. None of the above
+
+***************************************
+3.What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	int i;
+	for(i = 0; i>9; i+=3)
+	{
+	printf("for ");
+	}
+	return 0;
+}
+A. Nothing prints
+
+B. for
+
+C. for for for 
+
+D. None of the above
+
+***************************************
+4. What will be the output of the C program?
+#include<stdio.h>
+int main()
+{
+	for(5;2;2) 
+	printf("Hello");
+	return 0;
+}
+A. Compilation error
+
+B. Program never ends
+
+C. Hello
+
+D. None of the above
+
+***************************************
+5. What will be the output of the C program?
+Not: Bu sorunun nasil cozulecegini anlamak icin:
+Bir tane klasik for dongusu yazin ve her adimda hangi islemleri, hangi kontrolleri yaptiginiza dikkat edin. Ornegin
+for(int counter=0; counter<10; counter++) //ornegin buradaki int counter=0 atamasinin sadece ilk seferinde(tek seferlik) yapildigina dikkat edin. counter++ ne zaman cagrilir buna dikkat edin... 
+
+DIFFICULTY LEVEL: HARD
+#include<stdio.h>
+int main()
+{
+	static int i;
+	for(i++;++i;i++)
+	{
+		printf("%d ", i);
+		if(i == 6) 
+		break;
+	}
+	return 0;
+}
+A. 2 4
+
+B. No output
+
+C. 2 4 6
+
+D. Program never ends
+
+**************************************************
+6. What will be the output of the C program?
+
+DIFFICULTY LEVEL: HARD
+Not: Bu sorunun nasil cozulecegini anlamak icin:
+Bir tane klasik for dongusu yazin ve her adimda hangi islemleri, hangi kontrolleri yaptiginiza dikkat edin. Ornegin
+for(counter=0; counter<10; counter++) //ornegin bu ++ ne zaman cagrilir. counter<10 ifadesi ne oldugunda for dongusu sonlandirilir... 
+
+#include<stdio.h>
+int main()
+{
+	int i = 1, j = 1;
+	for(;j;printf("%d %d ",i, j))
+	j = i++ <= 1;
+	return 0;
+}
+A. 1 2 3 0
+
+B. 1 1 2 2
+
+C. 2 1 3 0
+
+D. 0 1 2 3
+
+
