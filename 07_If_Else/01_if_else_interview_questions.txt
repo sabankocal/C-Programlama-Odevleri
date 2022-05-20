@@ -1,0 +1,352 @@
+1-)
+ What will be the output of the C program?
+
+#include<stdio.h>
+int x = 0;
+int main(){
+	if(x == x)
+		printf("hai this is if");
+	else
+		printf("hai this is else");
+	return 0;
+}
+A. hai this is if
+
+B. hai this is else
+
+C. prints nothing
+
+D. Compile Time Error
+
+2-)
+ What will be the output of the C program?
+
+#include<stdio.h>
+#define FALSE -1
+#define NULL 0
+#define TRUE 1
+
+int main(){
+	if(NULL)
+		printf("NULL");
+	else if(FALSE)
+		printf("TRUE");
+	else
+		printf("FALSE");
+	return 0;
+}
+A. FALSE
+
+B. NULL
+
+C. TRUE
+
+D. Compilation Error
+
+3-)
+ What will be the output of the C program?
+
+#include<stdio.h>
+#define FALSE -1
+#define NULL 0
+#define TRUE 1
+
+int main(){
+	if(NULL)
+		printf("NULL");
+	else if(FALSE)
+		printf("TRUE");
+	else
+		printf("FALSE");
+	return 0;
+}
+A. FALSE
+
+B. NULL
+
+C. TRUE
+
+D. Compilation Error
+
+4-)
+What will be the output of the C program?
+
+#include<stdio.h>
+int main(){
+	int i = 0, j = 0;
+		if(i++ == j++)
+			printf("%d %d", i--, j--);
+		else
+			printf("%d %d", i, j);
+		return 0;
+}
+A. 0 0
+
+B. 0 1
+
+C. 1 0
+
+D. 1 1
+
+5-)
+
+What will be output when you will execute following c code?
+
+#include<stdio.h>
+void main(){
+    int a=5,b=10,c=1;
+    if(a&&b>c){
+         printf("cquestionbank");
+    }
+    else{
+         break;
+    }
+}
+
+Choose all that apply:
+(A)		 cquestionbank
+(B)		 It will print nothing
+(C)		 Run time error
+(D)		 Compilation error
+(E)		 None of the above
+
+6-)
+Difficulty level: Hard
+
+What will be output when you will execute following c code?
+
+#define PRINT printf("Star Wars");printf(" Psycho");
+#include<stdio.h>
+void main(){
+    int x=1;
+    if(x--)
+         PRINT
+    else
+         printf("The Shawshank Redemption");
+}
+
+Choose all that apply:
+
+(A)		 Stars Wars Psycho
+(B)		 The Shawshank Redemption
+(C)		 Warning: Condition is always true
+(D)		 Warning: Condition is always false
+(E)		 Compilation error
+
+7-)
+Note: we will learn "Operator Comma" in next lesson
+You can solve it later!
+
+ What will be the output of the C program?
+
+#include<stdio.h>
+int main(){
+	int i = 0, j = 1, k = 0;
+		if(++k, j, i++)
+			printf("%d %d %d", i, j, k);
+	return 0;
+}
+A. Prints Nothing
+
+B. 1 1 0
+
+C. 0 1 0
+
+D. Compilation Error
+
+8-)
+. What will be the output of the C program?
+
+#include<stdio.h>
+int main(){
+	int i;
+		if(true)
+			printf("This will work");
+		else 
+			printf("This will not work");
+	return 0;
+}
+A. This will work
+
+B. This will not work
+
+C. Compilation Error
+
+D. Runtime Error
+
+9-)
+Note: we will learn "what is the return value of printf?" in next lesson
+You can solve it later!
+
+What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	if(printf("0"))
+		printf("inside if block");
+	else
+		printf("inside else block");
+	return 0;
+}
+A. inside if block
+
+B. inside else block
+
+C. 0inside else block
+
+D. 0inside if block
+
+10-)
+Note: we will learn "what is the return value of printf?" in next lesson
+You can solve it later!
+
+What will be the output of the C program?
+
+#include<stdio.h>
+#define NULL 0
+int main()
+{
+	if(printf("0") == NULL)
+		printf("inside if block");
+	else
+		printf("inside else block");
+	return 0;
+}
+A. 0inside if block
+
+B. 0inside else block
+
+C. 0inside else block
+
+D. inside if block
+
+11-)
+ What will be the output of the C program?
+
+#include<stdio.h>
+int main(){
+int i = 5, j = 4;
+	if(!printf(""))
+		printf("%d %d", i, j);
+	else
+		printf("%d %d", i++, ++j);
+	return 0;
+}
+A. 6 5
+
+B. 5 5
+
+C. 5 4
+
+D. 6 4
+
+12-)
+What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	int i = 1, j = 0 ;
+	if(i-- == j)
+		printf("i = %d", --i);
+	else
+		printf("j = %d", ++j);
+	return 0;
+}
+A. i = 1
+
+B. i = -1
+
+C. i = 0
+
+D. j = 1
+
+13-)
+ What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	int i = 5, j = 5;
+	if(i == j);
+		printf("Equal");
+	else
+		printf("Not Equal");
+	return 0;
+}
+A. Compilation Error
+
+B. Runtime Error
+
+C. Equal
+
+D. Not Equal
+
+14-)
+What will be the output of the C program?
+
+#include<stdio.h>
+int main(){
+	float me = 5.25;
+	double you = 5.25;
+	if(me == you)
+		printf("I love U");
+	else
+		break;
+	return 0;
+}
+A. Prints Nothing
+
+B. I love U
+
+C. Runtime Error
+
+D. Compilation Error
+
+15-)
+#include<stdio.h>
+int main()
+{
+	int  i = 25;
+	if(i == 25); 
+		i = 50;
+	if(i == 25) 
+		i = i + 1;
+	else
+		i = i + 1;
+	printf("%d", i);
+	return 0;
+}
+A. 50
+
+B. 51
+
+C. 26
+
+D. 27
+
+16-)
+Note: we will learn "Operator Comma" in next lesson
+You can solve it later!
+
+What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	int i = 2;
+	if(i == (1, 2))
+		printf("Hai");
+	else
+		printf("No Hai");
+	return 0;
+}
+A. Compilation Error
+
+B. Runtime Error
+
+C. Hai
+
+D. No Hai
+
