@@ -1,0 +1,4 @@
+9.ders'in 3 saat 51.dk ve 50. saniyesindeki youtube videosunda gecen sorunun cevabi nedir?
+int a=8, b;
+b = (a++, ++a, a>>2);
+a = ?, b = ?
