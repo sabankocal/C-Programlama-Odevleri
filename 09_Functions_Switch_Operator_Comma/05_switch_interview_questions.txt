@@ -1,0 +1,116 @@
+1.What is the output of below program?
+
+#include <stdio.h>
+int main()
+{
+int a = 10;
+switch(a)
+{
+	case 10: printf("Ten"); break;
+	case 20: printf("Twenty");break;
+	case 30: printf("Thirty");break;
+	default: printf("nothing");
+}
+return 0;
+}
+
+
+2.What is the output of below program?
+
+#include <stdio.h>
+int main()
+{
+int a = 20;
+switch(a)
+{
+case 10: printf("Ten");break;
+case 20: printf("Twenty");
+case 30: printf("Thirty");break;
+default: printf("nothing");
+}
+
+return 0;
+}
+
+3.
+#include "stdio.h"
+int main()
+{
+int a = 10;
+switch(a)
+{
+case 10: printf("Ten"); 
+case 20: printf("Twenty");
+case 30: printf("Thirty");
+default: printf("nothing");
+}
+return 0;
+}
+
+4.
+#include <stdio.h>
+int main()
+{
+int a = 10;
+switch(a)
+{
+case 10: 
+case 20: 
+case 30: 
+default: printf("default");
+}
+return 0;
+}
+
+5.
+#include <stdio.h>
+int main()
+{
+    char a = 'a';
+    switch(a)
+    {
+        case 'a': printf("a");
+        case 'b': printf("b");
+        case 'c': printf("c");
+        default: printf("default");
+    }
+    return 0;
+}
+
+6.
+#include <stdio.h>
+
+int main()
+{
+    char a = 'a';
+    switch(a)
+    {
+        case "a": printf("a"); 
+        case "b": printf("b"); 
+        case "c": printf("c"); 
+        default:  printf("default");
+    }
+
+    return 0;
+}
+
+(A) a
+(B) abc
+(C) abcdefault
+(D) Compilation Error
+
+7.
+HARIKA SORU! printf, switch bir arada :)
+
+#include <stdio.h>
+int main()
+{
+switch(printf("Hi-"))
+{
+case 1: printf("A"); break;
+case 2: printf("B"); break;
+case 3: printf("C"); break;
+default:  printf("default");
+}
+return 0;
+}
