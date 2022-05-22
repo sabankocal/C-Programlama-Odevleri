@@ -1,0 +1,18 @@
+Soru-1:
+simple_calculator.c isimli dosyadaki kodu fonksiyona donusturunuz.
+Fonksyon signature'u su sekilde olsun:
+
+double calculate(char operation, double operand1, double operand2);
+
+bu fonksyon ayni sekilde kendisine gelen (+, -, *, /) operation larina karsilik sonuclari hesaplayip main function a donsun.
+Main function icinde geri donus degeri local bir degiskene assign edilsin ve mevcut kodda oldugu gibi ekrana yazdirilsin.
+Ayni sekilde isleme kullanici devam etmek istedigi muddetce devam edilsin.
+
+Soru-2:
+Soru-1 deki ayni kodu bu sefer kullanici istedigi kadar degil de "3 kere" hesaplama yapacak sekilde duzenleyin.
+Or-1: *, +, * islemleri yapildiktan sonra uygulama sonlandirilsin.
+Or-2: -, /, + islemleri yapildiktan sonra uygulama sonlandirilsin...
+
+Soru-3:
+Soru-1 deki ayni kodu bu sefer double gecen yerine tam sayilar ile calisacak sekilde guncelleyin.
+
