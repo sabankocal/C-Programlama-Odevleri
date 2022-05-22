@@ -1,0 +1,7 @@
+Soru-1:
+simple_calculator.c isimli dosyadaki (+, -, *, /) fonksyonlarina ek olarak;
+power islemini de siz ekleyiniz.
+Karakter olarak kullanicidan "^" karakterini beklesin 2^3 seklinde veri girisinde sonuc olarak 8 hesaplasin.
+
+Soru-2:
+1.sorudaki ayni islemi bir kutuphane fonksyonu kullanmadan, kendiniz loop ile yeniden gercekleyin, kendiniz yazin.
