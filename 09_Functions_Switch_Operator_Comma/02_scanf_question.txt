@@ -1,0 +1,2 @@
+Question:
+simple_calculator.c isimli dosyadaki scanf ifadelerinden birinde kasitli olarak logic bir hata yapilmis, bunu bulunuz.
