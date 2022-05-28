@@ -1,0 +1,7 @@
+Aşağıdaki cümlelerin doğru ya da yanlış olduğunu yazınız:
+1. Otomatik ömürlü nesnelerin çöp değerleri (garbage value) ile kullanılması tanımsız davranıştır.
+2. Tam sayı ve gerçek sayı türlerinden statik ömürlü nesneler ilk değer verilmeden tanımlansalar dahi hayata 0 değeri ile başlarlar.
+3. long long türü en az 4 byte olmak zorundadır.
+4. int x; biçiminde bildirilen x değişkeni işaretli int türündendir.
+5. long türünden bir değişken int türünden bir değişkene göre daha büyük tam sayıları tutabilir.
+6. signed x; biçiminde bildirilen x değişkeni işaretli char türündendir.
