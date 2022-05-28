@@ -151,3 +151,20 @@ int main()
 
     return 0;
 }
+
+8. You have an intern(trainee) in your company. You are an experienced programmer.
+Your task is making Code review and give some advices to your intern.
+What do you want to say when you see code below?
+
+#include <stdio.h>
+
+int counter=5;
+
+int main()
+{
+    int counter=2;
+    
+    printf("counter=%d", counter);
+
+    return 0;
+}
