@@ -200,4 +200,5 @@ int main()
 10. Why we need some variables in our code that have dynamic storage?
 	Why not static storage or automatic storage?
 	
-11. 
+11. Which variables have automatic storage class type?
+	What does automatic storage means?
