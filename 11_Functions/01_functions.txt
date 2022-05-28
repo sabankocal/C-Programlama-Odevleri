@@ -224,7 +224,8 @@ int main()
 	What does term "Name lookup" mean?
 	
 14. What is the output of below program? Why?
-
+	If we write similar logic in another language, as an example which language behave differently than C?
+	
 #include <stdio.h>
 
 int counter=5;
@@ -244,3 +245,51 @@ int main()
     return 0;
 }
 	
+
+15. What is the output of below program? Why?
+#include <stdio.h>
+
+int dummy();
+
+int counter=5;
+int g = 10; 
+
+int main()
+{
+    int a = 76;
+    
+    dummy();
+    return 0;
+}
+
+int dummy()
+{
+	printf("a=%d\n", a);
+}
+
+
+16. What is the output of below program? Why?
+	If we write similar logic in another language, as an example which language behave differently than C?
+
+#include <stdio.h>
+
+int Square(int a)
+{
+	return a * a;
+}
+
+double Square(double a)
+{
+	return a * a;
+}
+
+int main()
+{
+    int iresult = Square(6);
+    double dresult = Square(6.5);
+    
+    printf("iresult=%d, dresult=%lf\n", iresult, dresult);
+    
+    return 0;
+}
+
