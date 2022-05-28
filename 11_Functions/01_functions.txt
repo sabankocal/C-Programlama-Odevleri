@@ -59,3 +59,34 @@ int main()
     
     return 0;
 }
+
+3. What is the output of below program?
+#include <stdio.h>
+
+
+int a = 10;
+
+int main() 
+{
+    printf("a=%d\n", ++a);
+    
+    int a = 20;    
+
+    if (1) 
+    {
+        printf("a=%d\n", ++a);
+        int a = 30;        
+
+        if (1) 
+        {
+            printf("a=%d\n", a++);
+            int a = 40;
+            printf("a=%d\n", ++a);
+        }
+        printf("a=%d\n", ++a);
+    }
+    printf("a=%d\n", a++);
+    
+    return 0;
+}
+
