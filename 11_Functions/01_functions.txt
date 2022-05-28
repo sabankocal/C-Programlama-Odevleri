@@ -223,3 +223,24 @@ int main()
 13. What does term "Scope" mean? 
 	What does term "Name lookup" mean?
 	
+14. What is the output of below program? Why?
+
+#include <stdio.h>
+
+int counter=5;
+
+int dummy()
+{
+	int a = g;
+    printf("g=%d\n", g);
+
+}
+
+int g = 10; 
+
+int main()
+{
+    dummy();
+    return 0;
+}
+	
