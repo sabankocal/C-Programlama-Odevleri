@@ -202,3 +202,24 @@ int main()
 	
 11. Which variables have automatic storage class type?
 	What does automatic storage means?
+	
+12. What is the output of below program? Why?
+
+#include <stdio.h>
+
+int counter=5;
+int g1 = counter++;
+int g2 = ++counter;
+int g3 = counter;
+
+int main()
+{
+    printf("g1=%d, g2=%d, g3=%d\n", g1, g2, g3);
+
+    return 0;
+}
+
+
+13. What does term "Scope" mean? 
+	What does term "Name lookup" mean?
+	
