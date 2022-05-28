@@ -168,3 +168,31 @@ int main()
 
     return 0;
 }
+
+9. You have an intern(trainee) in your company. You are an experienced programmer.
+Your task is making Code review and give some advices to your intern.
+What do you want to say when you see code below?
+(Before C99 Standards and after C99 Standards)
+If you see a problem codes below, how we name it in English?
+
+#include <stdio.h>
+
+int main()
+{
+    int counter=0;
+    
+    // TODO...
+    // TODO...
+    // TODO...
+    
+    for(counter=0; counter<5; counter++){
+        int calculation = counter * 7;
+        printf("calculation=%d\n", calculation);
+    }
+    
+    // TODO...
+    // TODO...
+    // TODO...
+    
+    return 0;
+}
