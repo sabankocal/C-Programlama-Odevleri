@@ -5,3 +5,6 @@ Aşağıdaki cümlelerin doğru ya da yanlış olduğunu yazınız:
 4. int x; biçiminde bildirilen x değişkeni işaretli int türündendir.
 5. long türünden bir değişken int türünden bir değişkene göre daha büyük tam sayıları tutabilir.
 6. signed x; biçiminde bildirilen x değişkeni işaretli char türündendir.
+
+Bkz:
+https://en.wikipedia.org/wiki/C_data_types
