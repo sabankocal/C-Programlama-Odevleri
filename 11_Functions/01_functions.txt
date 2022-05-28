@@ -134,7 +134,7 @@ int main()
     return 0;
 }
 
-7. You have a intern(trainee) in your company. You are an experienced programmer.
+7. You have an intern(trainee) in your company. You are an experienced programmer.
 Your task is making Code review and give some advices to your intern.
 What do you want to say when you see code below?
 
