@@ -1,0 +1,30 @@
+1. What is the output of below program?
+
+#include <stdio.h>
+
+int dummy()
+{
+    static int x=10;
+    int y = 10;
+    printf("x=%d, y=%d\n", ++x, ++y);
+
+    return 0;
+}
+
+int main() 
+{
+    dummy();
+    if (1) 
+    {
+        dummy();
+
+        if (1) 
+        {
+            dummy();
+        }
+    }
+
+    return 0;
+}
+
+
