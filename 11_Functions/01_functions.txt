@@ -63,7 +63,6 @@ int main()
 3. What is the output of below program?
 #include <stdio.h>
 
-
 int a = 10;
 
 int main() 
@@ -90,3 +89,16 @@ int main()
     return 0;
 }
 
+
+4. What is the output of below program? Why?
+
+#include <stdio.h>
+
+int main() 
+{
+    int printf = 10;
+	int val=10;
+    printf("%d", val);
+    
+    return 0;
+}
