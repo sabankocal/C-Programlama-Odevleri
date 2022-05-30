@@ -1,92 +1,35 @@
-1. What is the output of below program?
+1. Write a C Code that:
+- has a function declared below: 
+int isprime(int number);
 
-#include <stdio.h>
+if number is prime then it turns 0
+In all cases your program informs user about result. 
 
-int dummy()
-{
-    static int x=10;
-    int y = 10;
-    printf("x=%d, y=%d\n", ++x, ++y);
+2. Write a C Code that:
+- has a function declared below: 
+int get_max(int number1, number2);
 
-    return 0;
-}
+in a loop it get inputs from user and shows every turn which number is current max.
+and it asks also every cycle do you want to exit? Yy / Nn? According to answer it exits or not
+For example:
+Type a number:
+12
 
-int main() 
-{
-    dummy();
-    if (1) 
-    {
-        dummy();
+Type a number:
+6
+Max value is : 6
+Do you want to exit? Yy / Nn?
+N
 
-        if (1) 
-        {
-            dummy();
-        }
-    }
+Type a number:
+17
+Max value is : 17
+Do you want to exit? Yy / Nn?
+N
 
-    return 0;
-}
-
-
-2. What is the output of below program?
-#include <stdio.h>
-
-int a = 10;
-
-int main() 
-{
-    int counter = 0;
-    
-    printf("a=%d\n", a);
-    counter = a;
-
-    int a = 20;    
-
-    if (1) 
-    {
-        printf("a=%d\n", a);
-        int a = 30;        
-
-        if (1) 
-        {
-            printf("a=%d\n", a);
-            int a = 40;
-            printf("a=%d\n", a);
-        }
-        printf("a=%d\n", a);
-    }
-    printf("a=%d\n", a);
-    
-    return 0;
-}
-
-3. What is the output of below program?
-#include <stdio.h>
-
-
-int a = 10;
-
-int main() 
-{
-    printf("a=%d\n", ++a);
-    
-    int a = 20;    
-
-    if (1) 
-    {
-        printf("a=%d\n", ++a);
-        int a = 30;        
-
-        if (1) 
-        {
-            printf("a=%d\n", a++);
-            int a = 40;
-            printf("a=%d\n", ++a);
-        }
-        printf("a=%d\n", ++a);
-    }
-    printf("a=%d\n", a++);
-    
-    return 0;
-}
+Type a number:
+1
+Max value is : 17
+Do you want to exit? Yy / Nn?
+Y
 
