@@ -5,8 +5,7 @@ It gets number from user and
 if number is prime then it turns 0
 In all cases your program informs user about result. 
 
-2. Write a C Code that:
-- has a function declared below: 
+2. Write a C Code that has a function declared below: 
 int get_max(int number1, int number2);
 
 in a loop it get inputs from user and shows every turn which number is current max.
