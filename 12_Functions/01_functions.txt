@@ -1,0 +1,92 @@
+1. What is the output of below program?
+
+#include <stdio.h>
+
+int dummy()
+{
+    static int x=10;
+    int y = 10;
+    printf("x=%d, y=%d\n", ++x, ++y);
+
+    return 0;
+}
+
+int main() 
+{
+    dummy();
+    if (1) 
+    {
+        dummy();
+
+        if (1) 
+        {
+            dummy();
+        }
+    }
+
+    return 0;
+}
+
+
+2. What is the output of below program?
+#include <stdio.h>
+
+int a = 10;
+
+int main() 
+{
+    int counter = 0;
+    
+    printf("a=%d\n", a);
+    counter = a;
+
+    int a = 20;    
+
+    if (1) 
+    {
+        printf("a=%d\n", a);
+        int a = 30;        
+
+        if (1) 
+        {
+            printf("a=%d\n", a);
+            int a = 40;
+            printf("a=%d\n", a);
+        }
+        printf("a=%d\n", a);
+    }
+    printf("a=%d\n", a);
+    
+    return 0;
+}
+
+3. What is the output of below program?
+#include <stdio.h>
+
+
+int a = 10;
+
+int main() 
+{
+    printf("a=%d\n", ++a);
+    
+    int a = 20;    
+
+    if (1) 
+    {
+        printf("a=%d\n", ++a);
+        int a = 30;        
+
+        if (1) 
+        {
+            printf("a=%d\n", a++);
+            int a = 40;
+            printf("a=%d\n", ++a);
+        }
+        printf("a=%d\n", ++a);
+    }
+    printf("a=%d\n", a++);
+    
+    return 0;
+}
+
