@@ -9,27 +9,27 @@ In all cases your program informs user about result.
 int get_max(int number1, int number2);
 
 in a loop it get inputs from user and shows every turn which number is current max.
-and it asks also every cycle do you want to exit? Yy / Nn? According to answer it exits or not
+and it asks also every cycle do you want to exit Yy / Nn? According to answer it exits or not
 For example:
 Type a number:
 12
 
 Type a number:
 6
-Max value is : 6
-Do you want to exit? Yy / Nn?
+Max value is : 12
+Do you want to exit Yy / Nn?
 N
 
 Type a number:
 17
 Max value is : 17
-Do you want to exit? Yy / Nn?
+Do you want to exit Yy / Nn?
 N
 
 Type a number:
-1
-Max value is : 17
-Do you want to exit? Yy / Nn?
+28
+Max value is : 28
+Do you want to exit Yy / Nn?
 Y
 
 
