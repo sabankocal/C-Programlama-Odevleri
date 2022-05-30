@@ -1,0 +1,46 @@
+1. Write C code defined below.
+
+It gets 3 int variables from Console
+Then calculates  max of them
+Then prints details as shown below:
+
+Type 3 numbers:
+12 56 8
+
+Max of 35, 12 and 87  is 87
+
+2. Write C code defined below.
+
+It gets 4 int variables from Console
+Then calculates  max of them
+Then prints details as shown below:
+
+Type 4 numbers:
+35 12 87 3
+
+Max of 35, 12, 87 and 3 is 87
+
+3.
+#include <stdio.h>
+
+int main()
+{
+	int x = -1;
+	long y = -2;
+	long long z = -3;
+	
+	//call only one function that prints all of x, y, z on Console
+}
+
+4. What is the console output of code below?
+
+#include <stdio.h>
+
+#include <stdio.h>
+
+int main()
+{
+	int x = 333;
+
+	printf("%d", printf("%d", printf("%d", x)));
+}
