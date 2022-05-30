@@ -1,0 +1,50 @@
+1. Why we need NULL Statements?
+
+2. What does "(void)" means below?
+
+3. 	You have an intern(trainee) in your company. You are an experienced programmer.
+	Your task is making Code review and give some advices to your intern.
+	What do you want to say when you see "goto" statements in his code?
+	
+4. What is function overloading?
+
+5. What is the output of code below:
+
+#include <stdio.h>
+
+int a = 10;
+
+int main()
+{
+	int i;
+	for (i = 0; i < 10; i++)	
+		printf("%d", ++i);printf("%d", --i);
+
+	return 0;
+}
+
+6. How many parameters have functions below?
+- void func(func2(2));
+- printf("StudentId: %d CGPA: %f", id, cgpa); 
+- printf("Name: %s StudentId: %d CGPA: %f", name, id, cgpa);
+
+7.Give 4 examples to control statements?
+
+8. We learned that there is no function overloading in C.
+   We learned also people developed Operating Systems with C and we can do everything with C.
+   Then comes this question: 
+   Can you give me an example how we can solve our function overload needs in C that functions can get 2,3,10,100 parameters.
+   Without function overloading how could we did it in our lesson-12?
+   
+9. We learned that we can return a value from our newly defined function to main function.
+   Is there any other possibly to get a calculated value from a function and use it in main function?
+   
+10.Which pupose could we use return value of main function?
+
+11. In C we have a library function that can takes 2 optional parameters.
+	Can you give us examples, how many different ways we could call this function?
+	
+	calculate_area(int height, int width = 5, int length =3);
+	for example: 
+	calculate_area(25);
+

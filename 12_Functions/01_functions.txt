@@ -33,3 +33,8 @@ Max value is : 17
 Do you want to exit? Yy / Nn?
 Y
 
+
+3. Write a C Code that has a function declared below: 
+int get_digit_count(int number);
+
+It gets number from user and prints digit count of number on the console. 
