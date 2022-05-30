@@ -7,7 +7,7 @@ In all cases your program informs user about result.
 
 2. Write a C Code that:
 - has a function declared below: 
-int get_max(int number1, number2);
+int get_max(int number1, int number2);
 
 in a loop it get inputs from user and shows every turn which number is current max.
 and it asks also every cycle do you want to exit? Yy / Nn? According to answer it exits or not
