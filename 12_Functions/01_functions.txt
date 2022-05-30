@@ -1,7 +1,7 @@
-1. Write a C Code that:
-- has a function declared below: 
+1. Write a C Code that has a function declared below: 
 int isprime(int number);
 
+It gets number from user and 
 if number is prime then it turns 0
 In all cases your program informs user about result. 
 
