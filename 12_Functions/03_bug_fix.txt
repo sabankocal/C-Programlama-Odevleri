@@ -1,0 +1,3 @@
+1. We have a register named Index_Limit_State. We know which bit is active according to picture named "bit_assignments.png"
+   We have a register value as 120012 (as hex)
+   According to register value find out which fields are active? 
