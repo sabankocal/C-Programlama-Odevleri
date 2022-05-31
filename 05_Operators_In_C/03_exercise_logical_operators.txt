@@ -1,35 +1,50 @@
-1. Write a C Code that:
-- has a function declared below: 
-int isprime(int number);
+1.islemin sonucunu bulunuz.
+#include <stdio.h>
+void main()
+{   
+	int x=(20 || 40 ) && (10);
+	printf("x= %d",x);
+}
 
-if number is prime then it turns 0
-In all cases your program informs user about result. 
+A-x= 60
+B-x= 70
+C-x= 0
+D-x= 1
 
-2. Write a C Code that:
-- has a function declared below: 
-int get_max(int number1, number2);
 
-in a loop it get inputs from user and shows every turn which number is current max.
-and it asks also every cycle do you want to exit? Yy / Nn? According to answer it exits or not
-For example:
-Type a number:
-12
+2.islemin sonucunu bulunuz.
+Bu soruyu derste birlikte cozecegiz. Lutfen hatirlatin!!!
+Not: printf() returns total number of characters, printf("AA") will return 2
+#include <stdio.h>
+void main()
+{
+	int x;
+	x= (printf("AA")||printf("BB"));
+	printf("%d",x);
+	printf("\n");
 
-Type a number:
-6
-Max value is : 6
-Do you want to exit? Yy / Nn?
-N
+	x= (printf("AA")&&printf("BB"));
+	printf("%d",x);
+}
+a-)	AABB1
+	AABB1
+b-) 1
+	1
+c-)	AABB1
+	AA1
+d-)	AA1
+	AABB1
 
-Type a number:
-17
-Max value is : 17
-Do you want to exit? Yy / Nn?
-N
+3.islemin sonucunu bulunuz.
+#include <stdio.h>
+void main()
+{
+   int a=3,b=2;
+   a=a==b==0;
+   printf("%d,%d",a,b);
+}
 
-Type a number:
-1
-Max value is : 17
-Do you want to exit? Yy / Nn?
-Y
-
+A-1,2
+B-3,2
+C-0,0
+D-2,3
