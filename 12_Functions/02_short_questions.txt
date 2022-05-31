@@ -1,7 +1,9 @@
 1. Why we need NULL Statements?
 
 2. What does "(void)" means below?
-
+   (void)scanf("%d", number);
+   
+	
 3. 	You have an intern(trainee) in your company. You are an experienced programmer.
 	Your task is making Code review and give some advices to your intern.
 	What do you want to say when you see "goto" statements in his code?
