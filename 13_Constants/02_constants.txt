@@ -1,0 +1,13 @@
+Question:
+Assume that we are working on a compiler that int defined as 2 bytes(16bits) and long defined as 4 bytes(32bits)
+Write constant types of constants below as a comment
+
+'A' // for example: it is a char constant?
+32767
+32768
+50000
+0x7000
+0xFFFF
+50000U
+10000U
+'\x1A'
