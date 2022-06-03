@@ -1,0 +1,19 @@
+Question:
+What is the output of code below?
+
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+
+int main()
+{
+	int x = 1;
+	int y = -1;
+	int z = !--x - !++y;
+
+	z += x += y;
+
+	printf("%d%d%d", x, y, z);
+
+	return 0;
+}
