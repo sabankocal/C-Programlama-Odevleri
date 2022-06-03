@@ -1,5 +1,6 @@
-//Please explain every line which operator has priority than orher 
+### Please explain every line which operator has priority than others
 
+```
 #include <stdio.h>
 
 int main()
@@ -18,3 +19,4 @@ int main()
 	x == (y = z);
 	printf("%d\n", x);
 }
+```
