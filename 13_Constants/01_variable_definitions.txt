@@ -1,5 +1,6 @@
-Question:
 Describe variable definition errors as a comment if there is a syntax error.
+
+1-)
 
 int main()
 {
@@ -13,4 +14,19 @@ int main()
 	unsigned short int x8;
 	long unsigned x9;
 	long float x10;
+}
+
+2-)
+
+int main()
+{
+	int _3744; // For example here there is an error. Because ...
+	unsigned check;
+	long long_distance;
+	int 3rdvalue;
+	short too_long;
+	signed binary;
+	int register;
+	double CITIZEN;
+	int int_val;
 }
