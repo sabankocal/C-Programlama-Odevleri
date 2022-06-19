@@ -16,7 +16,7 @@ int main()
       sum+=random;
    }
 
-      printf("\nAverage=%d\n",sum/10);
+   printf("\nAverage=%d\n",sum/10);
 
    int max=arr[0];
    int min=arr[0];
@@ -29,8 +29,7 @@ int main()
       if(min>arr[i+1])
       min=arr[i+1];
    }
-
+ 
    printf("Max Value=%d\n",max);
    printf("Min Value=%d\n",min);  
-
 }
