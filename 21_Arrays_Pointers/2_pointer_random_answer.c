@@ -1,8 +1,5 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<time.h>
-#include<stdlib.h>
-
 
 int main()
 {
@@ -34,6 +31,7 @@ int main()
 		if (min > *(ptr + i))
 			min = *(ptr + i);
 	}
+	
 	printf("Min=%d\n", min);
 	printf("Max=%d\n", max);
 }
