@@ -10,7 +10,6 @@ const int *ciData = malloc(1*sizeof (int));
 *ciData=7; //assign a value
 
 return 0;
-
 }
 
 Output:?
@@ -27,7 +26,6 @@ pchar[1]='d';
 printf("%c",pchar[1]);
 
 return 0;
-
 }
 
 Output: ?
@@ -86,7 +84,6 @@ Question 6:
 #include <stdio.h>
 
 int main()
-
 {
 const char *const pcName="aticleworld";
 pcName++;
@@ -158,16 +155,14 @@ Question 10:
 #include <stdio.h>
 
 int main()
-
 {
-
 const int a =7;
 const int * p=&a;
 printf("%d",++*p);
 
 return 0;
-
 }
+
 Output: ?
 
 *******************************************************************
